@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reproductor de Audio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <button id="playButton" class="heart-button">&#x2764;</button>
+        <div id="lyrics" class="lyrics" style="display: none;">
+            <div id="lyricsContainer">
+                <p id="line1" class="lyric-line" style="display: none;"></p>
+                <p id="line2" class="lyric-line" style="display: none;"></p>
+                <p id="line3" class="lyric-line" style="display: none;"></p>
+                <p id="line4" class="lyric-line" style="display: none;"></p>
+                <p id="line5" class="lyric-line" style="display: none;"></p>
+                <p id="line6" class="lyric-line" style="display: none;"></p>
+                <p id="line7" class="lyric-line" style="display: none;"></p>
+                <p id="line8" class="lyric-line" style="display: none;"></p>
+                <p id="line9" class="lyric-line" style="display: none;"></p>
+                <p id="line10" class="lyric-line" style="display: none;"></p>
+                <p id="line11" class="lyric-line" style="display: none;"></p>
+                <p id="line12" class="lyric-line" style="display: none;"></p>
+                <p id="line13" class="lyric-line" style="display: none;"></p>
+                <p id="line14" class="lyric-line" style="display: none;"></p>
+                <p id="line15" class="lyric-line" style="display: none;"></p>
+                <p id="line16" class="lyric-line" style="display: none;"></p>
+                <p id="line17" class="lyric-line" style="display: none;"></p>
+                <p id="line18" class="lyric-line" style="display: none;"></p>
+                <p id="line19" class="lyric-line" style="display: none;"></p>
+                <p id="line20" class="lyric-line" style="display: none;"></p>
+                <p id="line21" class="lyric-line" style="display: none;"></p>
+                <p id="line22" class="lyric-line" style="display: none;"></p>
+                <p id="line23" class="lyric-line" style="display: none;"></p>
+                <p id="line24" class="lyric-line" style="display: none;"></p>
+                <p id="line25" class="lyric-line" style="display: none;"></p>
+                <p id="line26" class="lyric-line" style="display: none;"></p>
+                <p id="line27" class="lyric-line" style="display: none;"></p>
+                <p id="line28" class="lyric-line" style="display: none;"></p>
+                <p id="line29" class="lyric-line" style="display: none;"></p>
+                <p id="line30" class="lyric-line" style="display: none;"></p>
+                <p id="line31" class="lyric-line" style="display: none;"></p>
+                <p id="line32" class="lyric-line" style="display: none;"></p>
+                <p id="line33" class="lyric-line" style="display: none;"></p>
+                <p id="line34" class="lyric-line" style="display: none;"></p>
+                <p id="line35" class="lyric-line" style="display: none;"></p>
+                <p id="line36" class="lyric-line" style="display: none;"></p>
+                <p id="line37" class="lyric-line" style="display: none;"></p>
+                <p id="line38" class="lyric-line" style="display: none;"></p>
+                <p id="line39" class="lyric-line" style="display: none;"></p>
+                <p id="line40" class="lyric-line" style="display: none;"></p>
+                <p id="line41" class="lyric-line" style="display: none;"></p>
+                <p id="line42" class="lyric-line" style="display: none;"></p>
+            </div>
+            <button id="resetButton" class="reset-button" style="display: none;">Reiniciar</button>
+        </div>
+    </div>
+    <div id="videoContainer" class="video-container" style="display: none;">
+        <video id="video" controls>
+            <source src="video/gatosbailando.mp4" type="video/mp4"> <!-- Reemplaza "video.mp4" con el nombre de tu archivo de video -->
+            Tu navegador no soporta la etiqueta de video.
+        </video>
+    </div>
+    </div>
+    <audio id="audio" src="audio/song-VEED.mp3"></audio> <!-- Reemplaza "song.mp3" con el nombre de tu archivo de audio -->
+    <script src="script.js"></script>
+</body>
+</html>
